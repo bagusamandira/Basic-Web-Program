@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    background: rgb(30, 30, 30);
+}
+
+/* NAVBAR */
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    padding: 10px 10px;
+    background: rgb(249,8,8);
+    background: linear-gradient(180deg, rgba(249,8,8,1) 0%, 
+                                        rgba(99,23,23,1) 75%,
+                                        rgba(30,30,30,1) 100%);
+}
+
+.navbutton a{
+    font-size: 20px;
+    color: rgb(217, 217, 217);
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbutton a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: rgb(217, 217, 217);
+}
+
+/* CONTENT */
+.container{
+    width: 100%;
+    margin-top: 5vh;
+    margin-bottom: 20vh;
+    background-color: rgb(30, 30, 30);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.container h1{
+    color: rgb(217, 217, 217);
+}
+.container a{
+    text-decoration: none;
+}
+.container p{
+    text-align: justify;
+}
+.item{
+    background: white;
+    width: 300px;
+    height: 440px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+}
+.item h3{
+    text-align: center;
+}
+.item p{
+    text-align: justify;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.itemimage{
+    background-color: pink;
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.image1{
+    background-image: url(../assets/FOREST.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.image2{
+    background-image: url(../assets/DESERT.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.image3{
+    background-image: url(../assets/SNOW.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* FOOTER */
+.footer{
+    padding-left: 40px;
+    position: relative;
+    display: flex;
+    background-color: black;
+}
+
+footer p{
+    color: rgb(217, 217, 217);
+}

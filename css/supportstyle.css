@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+}
+/* NAVBAR */
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    padding: 10px 10px;
+    background: rgb(249,8,8);
+    background: linear-gradient(180deg, rgba(249,8,8,1) 0%, 
+                                        rgba(99,23,23,1) 75%,
+                                        rgba(30,30,30,1) 100%);
+}
+
+.navbutton a{
+    font-size: 20px;
+    color: rgb(217, 217, 217);
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbutton a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+/* PIC */
+.image{
+    background-color: black;
+    background-image: url(../assets/BG1.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 410px;
+}
+
+/*Text */
+.requirements{
+    background-color: rgba(30,30,30,1);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.requirements h2{
+    color: rgb(217, 217, 217);
+}
+
+ul{
+    color: rgb(217, 217, 217);
+}
+
+
+/* FOOTER */
+footer{
+    padding-left: 40px;
+    position: relative;
+    display: flex;
+    background-color: black;
+}
+footer p{
+    color: rgb(217, 217, 217);
+    margin-left: 0%;
+}
